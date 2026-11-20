@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b0d12">
+    <meta name="description" content="Jean Ortega, desarrollador web full-stack y frontend en Colombia. Creo aplicaciones web rápidas, integraciones de APIs y experiencias de e-commerce para equipos remotos y clientes internacionales.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_CO">
+    <meta property="og:title" content="Jean Ortega | Desarrollador Web Full-Stack">
+    <meta property="og:description" content="Aplicaciones web rápidas y funcionales para empresas y proyectos de todo el mundo. Disponible para trabajo remoto y freelance.">
+    <meta property="og:image" content="assets/profile.jpeg">
+    <title>Jean Ortega | Desarrollador Web Full-Stack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <noscript><style>.intro-screen { display: none !important; }</style></noscript>
+  </head>
+  <body>
+    <div class="intro-screen" id="intro-screen" aria-label="Presentación profesional">
+      <div class="intro-content">
+        <p class="intro-label">PORTAFOLIO PROFESIONAL</p>
+        <h1 class="intro-name">Jean Ortega<span>.</span></h1>
+        <p class="intro-message">Desarrollador Web Full-Stack &amp; Frontend · Construyendo experiencias digitales de alto impacto.</p>
+        <div class="intro-progress" aria-hidden="true"><span></span></div>
+      </div>
+      <button class="intro-skip" type="button">Saltar intro</button>
+    </div>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="Jean Ortega, ir al inicio">
+          <span class="brand-mark">JO</span>
+          <span class="brand-name">Jean Ortega<span class="brand-dot">.</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">
+          <span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#inicio">Inicio</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#stack">Stack técnico</a>
+          <a href="#modalidad">Modalidad</a>
+          <a href="#contacto">Contacto</a>
+          <a class="nav-cta" href="#contacto">Contactar <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero section container" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Disponible para oportunidades remotas</p>
+          <h1 id="hero-title">Construyo experiencias web <span>que resuelven problemas reales.</span></h1>
+          <p class="hero-description">Soy Jean, desarrollador web full-stack y frontend. Creo aplicaciones rápidas y funcionales, integro APIs y doy forma a experiencias de e-commerce pensadas para personas reales.</p>
+          <p class="hero-location"><span aria-hidden="true">⌖</span> Colombia <span class="location-separator">·</span> Remoto para Europa y América</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↘</span></a>
+            <a class="button button-outline" href="https://wa.me/573046366932" target="_blank" rel="noopener noreferrer">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20.5 11.8a8.4 8.4 0 0 1-12.4 7.4L3.5 20.5l1.3-4.5a8.4 8.4 0 1 1 15.7-4.2Zm-8.4-6.7a6.7 6.7 0 0 0-5.7 10.2l.2.4-.8 2.6 2.7-.7.4.2a6.7 6.7 0 1 0 3.2-12.7Zm3.8 9.5c-.2-.1-1.3-.7-1.5-.8-.2-.1-.4-.1-.5.1l-.7.8c-.1.2-.3.2-.5.1a5.5 5.5 0 0 1-2.7-2.3c-.2-.3.2-.3.6-1.1.1-.1 0-.3 0-.4L10 9.5c-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.8s.8 2 1 2.1a8.1 8.1 0 0 0 3.1 2.7c1.2.5 1.7.6 2.3.5.4 0 1.3-.5 1.5-1 .2-.5.2-.9.1-1-.1-.1-.3-.2-.5-.3Z"/></svg>
+              Hablemos por WhatsApp
+            </a>
+          </div>
+          <div class="hero-proof"><span class="proof-line"></span><span>De una idea a una experiencia lista para crecer.</span></div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="portrait-frame">
+            <img src="assets/profile.jpeg" alt="Jean Ortega - Desarrollador Web" fetchpriority="high">
+            <div class="portrait-caption"><span class="caption-icon">✳</span><span><strong>Jean Ortega</strong><small>Desarrollador Web</small></span></div>
+          </div>
+          <div class="floating-note note-top"><span class="note-icon">✦</span><span>Ideas que se vuelven<br><strong>productos digitales</strong></span></div>
+          <div class="floating-note note-bottom"><span class="availability-icon"></span><span>Abierto a colaborar<br><strong>en todo el mundo</strong></span></div>
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+        </div>
+        <a class="scroll-cue" href="#proyectos"><span></span> Explora mi trabajo</a>
+      </section>
+
+      <section class="section projects-section reveal" id="proyectos" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><p class="eyebrow">Trabajo seleccionado <span class="heading-line"></span></p><h2 id="projects-title">Proyectos con propósito<span class="accent">.</span></h2></div>
+            <p>Productos digitales que combinan una interfaz clara, funcionalidad útil y una base lista para evolucionar.</p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-preview preview-ai">
+                <img class="project-screenshot" src="assets/xrtegazz-ia.png" alt="Captura de pantalla de XRTEGAZZ IA mostrando su interfaz oscura de asistente inteligente" loading="lazy" decoding="async" onerror="this.classList.add('image-fallback'); this.onerror=null;">
+                <span class="preview-tag">EN VIVO · IA / PWA</span>
+              </div>
+              <div class="project-content">
+                <div class="project-title-row"><h3>XRTEGAZZ IA</h3><span class="project-index">01</span></div>
+                <p>Asistente web inteligente que mantiene el contexto de la conversación, analiza imágenes, busca información actualizada en internet y resuelve operaciones matemáticas. Incluye historial de chats persistente y se puede instalar como PWA.</p>
+                <ul class="tech-list" aria-label="Tecnologías"><li>Python</li><li>Flask</li><li>JavaScript</li><li>HTML5 / CSS3</li><li>APIs de IA</li><li>Búsqueda Web</li><li>PWA</li></ul>
+                <details class="project-details">
+                  <summary>Detalles técnicos</summary>
+                  <ul><li>Contexto conversacional y análisis de imágenes.</li><li>Búsqueda web en tiempo real y resolución de operaciones matemáticas.</li><li>Historial local persistente e instalación como Progressive Web App.</li></ul>
+                </details>
+                <div class="project-links"><a href="https://xrtegazz-ia.vercel.app" target="_blank" rel="noopener noreferrer">Ver demo en vivo <span aria-hidden="true">↗</span></a><a href="https://github.com/jeanortega-co/Xrtegazz-ia" target="_blank" rel="noopener noreferrer">Código <span aria-hidden="true">↗</span></a></div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-preview preview-bank">
+                <img class="project-screenshot" src="assets/fastbank.png" alt="Captura de pantalla de FastBank mostrando su interfaz principal y tarjetas de crédito y débito" loading="lazy" decoding="async" onerror="this.classList.add('image-fallback'); this.onerror=null;">
+                <span class="preview-tag">SIMULACIÓN FINTECH</span>
+              </div>
+              <div class="project-content">
+                <div class="project-title-row"><h3>FastBank Oficial</h3><span class="project-index">02</span></div>
+                <p>Plataforma bancaria digital simulada con arquitectura cliente-servidor y asientos contables balanceados. Incluye registro con validación colombiana, verificación por correo, autenticación JWT y Passkeys, transferencias idempotentes, tarjetas, FastCredit por puntaje, bolsillos de ahorro, inversiones simuladas y panel administrativo.</p>
+                <ul class="tech-list" aria-label="Tecnologías"><li>Vue 3</li><li>Pinia</li><li>Node.js</li><li>Express</li><li>SQLite</li><li>JWT / WebAuthn</li><li>Tailwind CSS</li></ul>
+                <details class="project-details">
+                  <summary>Detalles técnicos</summary>
+                  <ul><li>Operaciones transaccionales con asientos contables balanceados y claves de idempotencia.</li><li>Recuperación mediante hashes SHA-256 y FastCredit por niveles de puntaje de 60 a 90.</li><li>Entorno de simulación financiera: no procesa dinero real ni se conecta a redes bancarias.</li></ul>
+                </details>
+                <div class="project-links"><a href="https://fastbank-oficial.vercel.app" target="_blank" rel="noopener noreferrer">Ver demo en vivo <span aria-hidden="true">↗</span></a><a href="https://github.com/jeanortega-co/fastbank" target="_blank" rel="noopener noreferrer">Código <span aria-hidden="true">↗</span></a></div>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-preview preview-shop">
+                <img class="project-screenshot" src="assets/xrteshop.png" alt="Captura de pantalla de XrteShop mostrando su tienda en línea y productos destacados" loading="lazy" decoding="async" onerror="this.classList.add('image-fallback'); this.onerror=null;">
+                <span class="preview-tag">E-COMMERCE · MVP</span>
+              </div>
+              <div class="project-content">
+                <div class="project-title-row"><h3>XrteShop</h3><span class="project-index">03</span></div>
+                <p>MVP de marketplace multivendedor que conecta compradores con vendedores independientes. Incluye catálogo con filtros, carrito persistente, cuentas de usuario, paneles de vendedor y administración, importación de productos mediante la API oficial de Mercado Libre y pagos Wompi en sandbox.</p>
+                <ul class="tech-list" aria-label="Tecnologías"><li>Python</li><li>Flask</li><li>PostgreSQL / Neon</li><li>SQLite</li><li>JavaScript</li><li>API Mercado Libre</li><li>Wompi (Sandbox)</li></ul>
+                <details class="project-details">
+                  <summary>Detalles técnicos</summary>
+                  <ul><li>Flask con PostgreSQL en Neon; SQLite para desarrollo local.</li><li>Flujos de marketplace para compradores y vendedores, con paneles diferenciados.</li><li>Wompi funciona en sandbox; los pagos y liquidaciones a vendedores se registran manualmente en esta etapa MVP.</li></ul>
+                </details>
+                <div class="project-footer"><span class="status-badge"><span></span> En desarrollo / MVP</span><a class="project-text-link" href="https://xrteshop.vercel.app" target="_blank" rel="noopener noreferrer">Ver demo <span aria-hidden="true">↗</span></a><a class="project-text-link" href="https://github.com/jeanortega-co/XrteShop" target="_blank" rel="noopener noreferrer">Código <span aria-hidden="true">↗</span></a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section stack-section container reveal" id="stack" aria-labelledby="stack-title">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">Herramientas para construir <span class="heading-line"></span></p><h2 id="stack-title">Mi stack técnico<span class="accent">.</span></h2></div>
+          <p>Elijo herramientas confiables para entregar soluciones prácticas, mantenibles y listas para producción.</p>
+        </div>
+        <div class="stack-grid">
+          <article class="stack-card reveal"><span class="stack-number">01 / INTERFAZ</span><div class="stack-icon">▧</div><h3>Frontend</h3><p>Interfaces accesibles, rápidas y adaptables a cada pantalla.</p><div class="stack-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript ES6+</span><span>Vue 3</span><span>Vite</span><span>Pinia</span><span>Tailwind CSS</span><span>Chart.js</span><span>PWA</span></div></article>
+          <article class="stack-card reveal"><span class="stack-number">02 / LÓGICA</span><div class="stack-icon">⌘</div><h3>Backend & seguridad</h3><p>Servicios, autenticación y controles para operaciones confiables.</p><div class="stack-tags"><span>Python</span><span>Flask</span><span>Node.js</span><span>Express</span><span>APIs REST</span><span>JWT</span><span>WebAuthn / Passkeys</span><span>bcrypt</span><span>Idempotencia</span></div></article>
+          <article class="stack-card reveal"><span class="stack-number">03 / DATOS & ENTREGA</span><div class="stack-icon">↗</div><h3>Bases de datos & despliegue</h3><p>Persistencia, integraciones y herramientas de entrega de los proyectos.</p><div class="stack-tags"><span>PostgreSQL (Neon)</span><span>SQLite</span><span>Git</span><span>GitHub</span><span>Vercel</span><span>API Mercado Libre</span><span>Wompi (Sandbox)</span></div></article>
+        </div>
+      </section>
+
+      <section class="section work-section reveal" id="modalidad" aria-labelledby="work-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><p class="eyebrow">Una buena colaboración empieza hablando <span class="heading-line"></span></p><h2 id="work-title">¿Cómo podemos trabajar?<span class="accent">.</span></h2></div>
+            <p>Comunicación clara, objetivos compartidos y horarios flexibles para que el trabajo avance, estés donde estés.</p>
+          </div>
+          <div class="work-grid">
+            <article class="work-card reveal"><span class="work-icon">✳</span><span class="work-label">COLABORACIÓN FLEXIBLE</span><h3>Proyectos por encargo <span>/ Freelance</span></h3><p>Desde una landing page hasta una integración o una tienda online: definimos alcance, prioridades y entregas antes de empezar.</p><a href="mailto:jeanortegasaavedra@gmail.com?subject=Proyecto%20freelance">Hablemos de tu proyecto <span aria-hidden="true">↗</span></a></article>
+            <article class="work-card work-card-featured reveal"><span class="work-icon">◎</span><span class="work-label">EQUIPOS DISTRIBUIDOS</span><h3>Contrato remoto <span>/ Internacional</span></h3><p>Disponible para sumarme a equipos internacionales con colaboración remota y horarios flexibles para Europa y América.</p><a href="mailto:jeanortegasaavedra@gmail.com?subject=Oportunidad%20remota">Conversemos sobre el rol <span aria-hidden="true">↗</span></a><span class="work-decoration" aria-hidden="true"></span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section container reveal" id="contacto" aria-labelledby="contact-title">
+        <div class="contact-panel reveal">
+          <div class="contact-orb orb-a"></div><div class="contact-orb orb-b"></div>
+          <div class="contact-content">
+            <p class="eyebrow"><span class="status-dot"></span> ¿Tienes algo en mente?</p>
+            <h2 id="contact-title">Hagamos que<br>pase<span class="accent">.</span></h2>
+            <p>Cuéntame qué necesitas. Estoy disponible para nuevos proyectos y oportunidades remotas.</p>
+            <div class="contact-actions">
+              <button class="button button-light copy-email" type="button" data-email="jeanortegasaavedra@gmail.com">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="4" y="4" width="13" height="13" rx="2"></rect><path d="M8 20h10a2 2 0 0 0 2-2V8"></path></svg>
+                <span class="copy-label">Copiar correo</span>
+              </button>
+              <a class="button button-glass" href="https://wa.me/573046366932" target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>
+            </div>
+            <p class="copy-feedback" role="status" aria-live="polite"></p>
+          </div>
+          <div class="contact-details">
+            <div><span>ESCRÍBEME</span><a href="mailto:jeanortegasaavedra@gmail.com">jeanortegasaavedra@gmail.com</a></div>
+            <div><span>LLÁMAME O ENVÍA UN MENSAJE</span><a href="tel:+573046366932">+57 304 636 6932</a></div>
+            <a class="github-link" href="https://github.com/jeanortega-co" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <a class="brand footer-brand" href="#inicio"><span class="brand-mark">JO</span><span class="brand-name">Jean Ortega<span class="brand-dot">.</span></span></a>
+      <p>Desarrollado con intención desde Colombia.</p>
+      <span class="footer-copy">© <span id="current-year">2026</span> Jean Ortega</span>
+    </footer>
+  </body>
+</html>
